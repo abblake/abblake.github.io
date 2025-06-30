@@ -1,0 +1,12 @@
+title: Andrew Blake | Strategy & AI Scholar
+tagline: "Organizational strategy, ecological change, and responsible AI"
+url: "https://<your-github-username>.github.io"
+baseurl: ""
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+collections:
+  pages:
+    output: true

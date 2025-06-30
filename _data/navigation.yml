@@ -1,0 +1,14 @@
+- title: Home
+  url: /
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Teaching
+  url: /teaching/
+- title: Media & Tools
+  url: /media/
+- title: Data Science & Code
+  url: /data-science/
+- title: CV
+  url: /cv/
