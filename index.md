@@ -6,7 +6,7 @@ permalink: /
 
 <img src="/assets/img/profile.jpg" alt="Andrew Blake headshot" width="140" align="right" />
 
-I am an **Assistant Professor of Management** at Texas Tech University specializing in **strategy, entrepreneurship, and AI-driven organizational change**.  
+I am an **Assistant Professor of Management** at Texas Tech University specializing in **strategy, entrepreneurship, and organizational change**.  
 My research asks:
 
 > *How do entrepreneurs and executives shape social and ecological change through strategy, governance, and the diffusion of new ideas?*
