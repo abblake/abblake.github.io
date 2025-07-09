@@ -14,11 +14,11 @@ author:
 
 # Social links
 social:
-  twitter: your_twitter
-  github: your_github
-  linkedin: your_linkedin
-  google_scholar: your_scholar_id
-  orcid: your_orcid
+  twitter: 
+  github: abblake
+  linkedin: andrew-blake-psy
+  google_scholar: P10TqEsAAAAJ
+  orcid: 0009-0008-0150-9374
 
 # Build settings
 markdown: kramdown
