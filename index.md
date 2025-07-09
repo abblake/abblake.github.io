@@ -13,36 +13,24 @@ title: Home
         <p class="hero-bio">{{ site.author.bio }}</p>
         
         <div class="social-links">
-            {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" title="Email">
                 <i class="fas fa-envelope"></i>
             </a>
-            {% endif %}
-            {% if site.social.google_scholar %}
             <a href="https://scholar.google.com/citations?user={{ site.social.google_scholar }}" title="Google Scholar">
                 <i class="fas fa-graduation-cap"></i>
             </a>
-            {% endif %}
-            {% if site.social.github %}
             <a href="https://github.com/{{ site.social.github }}" title="GitHub">
                 <i class="fab fa-github"></i>
             </a>
-            {% endif %}
-            {% if site.social.twitter %}
             <a href="https://twitter.com/{{ site.social.twitter }}" title="Twitter">
                 <i class="fab fa-twitter"></i>
             </a>
-            {% endif %}
-            {% if site.social.linkedin %}
             <a href="https://linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn">
                 <i class="fab fa-linkedin"></i>
             </a>
-            {% endif %}
-            {% if site.social.orcid %}
             <a href="https://orcid.org/{{ site.social.orcid }}" title="ORCID">
                 <i class="fab fa-orcid"></i>
             </a>
-            {% endif %}
         </div>
     </div>
     <div class="scroll-indicator">
@@ -99,15 +87,51 @@ title: Home
     <section id="publications" class="section">
         <h2>Publications</h2>
         <div class="publications-container">
-            {% for pub in site.data.publications %}
             <div class="publication-item">
-                <div class="title">{{ pub.title }}</div>
-                <div class="authors">{{ pub.authors }}</div>
-                <div class="venue">{{ pub.venue }}</div>
-                <div class="date">{{ pub.date }}</div>
+                <div class="title">Novel Approaches to Deep Learning Optimization</div>
+                <div class="authors">Your Name, Co-author A, Co-author B</div>
+                <div class="venue">Conference on Neural Information Processing Systems (NeurIPS)</div>
+                <div class="date">Dec 2024</div>
                 <div class="links">
-                    {% if pub.pdf %}
-                    <a href="{{ pub.pdf }}" target="_blank">PDF</a>
-                    {% endif %}
-                    {% if pub.code %}
-                    <a href="{{ pub.code }}" tar
+                    <a href="#" target="_blank">PDF</a>
+                    <a href="#" target="_blank">Code</a>
+                    <a href="#" target="_blank">Website</a>
+                </div>
+            </div>
+            <div class="publication-item">
+                <div class="title">Scalable Methods for Large-Scale Data Analysis</div>
+                <div class="authors">Your Name, Co-author C</div>
+                <div class="venue">International Conference on Machine Learning (ICML)</div>
+                <div class="date">Jun 2024</div>
+                <div class="links">
+                    <a href="#" target="_blank">PDF</a>
+                    <a href="#" target="_blank">Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-building"></i>
+                <span>{{ site.author.institution }}</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>{{ site.author.location }}</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+    </div>
+</footer>
