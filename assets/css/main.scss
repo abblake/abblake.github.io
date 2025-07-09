@@ -1,8 +1,10 @@
 ---
-# Only the front matter delimiters are required here.
---- 
+# Tells Jekyll to process this file
+---
 
 @import "minima";
+
+/* === Your custom overrides below === */
 
 .nav-list {
   list-style: none;
