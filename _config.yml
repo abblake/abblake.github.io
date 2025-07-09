@@ -1,14 +1,41 @@
-title: "Andrew Blake"
-tagline: "Strategy • Entrepreneurship • Responsible AI"
-description: "Assistant Professor of Management studying how strategic decision‑making and AI shape social and ecological change."
-url: ""          # GitHub Pages fills this in
-baseurl: ""      # Deploy at repo root
+title: Dr. Andrew Blake
+description: Assistant Professor & Data Scientist
+url: "https://abblake.github.io/"
+baseurl: ""
 
+# Personal information
+author:
+  name: Dr. Andrew Blake
+  email: your.email@university.edu
+  title: Assistant Professor of Strategic Management
+  institution: Your University
+  location: City, State
+  
+# Social links
+social:
+  twitter: your_twitter
+  github: your_github
+  linkedin: your_linkedin
+  google_scholar: your_scholar_id
+  orcid: your_orcid
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-gist
 
-google_analytics: ""   # add GA‑ID if you like
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
