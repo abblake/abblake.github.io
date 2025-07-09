@@ -1,16 +1,16 @@
-title: Dr. [Your Name]
-description: Assistant Professor & Data Scientist
+title: Dr. Andrew B. Blake
+description: Assistant Professor of Strategy and Entrepreneurship 
 url: "https://abblake.github.io/"
 baseurl: ""
 
 # Personal information
 author:
-  name: Dr. [Your Name]
-  email: your.email@university.edu
-  title: Assistant Professor of Data Science
-  institution: Your University
-  location: City, State
-  bio: "I am an Assistant Professor of Data Science at [Your University], where I conduct research at the intersection of artificial intelligence, machine learning, and computational methods. My work focuses on developing novel algorithms that can extract meaningful insights from complex data."
+  name: Dr. Andrew Blake.
+  email: me@andrew-blake.com
+  title: Assistant Professor of Strategy and Entrepreneurship
+  institution: Texas Tech University
+  location: Lubbock, Texas
+  bio: "I am an Assistant Professor of Strategy and Entrepreneurship at Texas Tech Univeristy, where I conduct research on dynamic processes through which individual differences and institutional contexts interact to shape strategic choices, drive innovation diffusion, and spark market formation."
 
 # Social links
 social:
