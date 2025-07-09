@@ -1,0 +1,23 @@
+---
+# Only the front matter delimiters are required here.
+--- 
+
+@import "minima";
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
