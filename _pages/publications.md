@@ -6,7 +6,7 @@ permalink: /publications/
 
 #### Refereed Articles
 
-1. **Blake, A.** (2025). *Ecological Entrenchment and the Diffusion of Responsible AI.* **Organization Science**, 36(2), 123-147.  
-   – Selected press: *MIT Tech Review*, *WSJ*.
-
-2. **Blake, A.**, & Smith, L. (2025). *SMART Tool: Democratizing Archival Data for Strategy.* **Journal of Management**, 51(1), 50-78.
+| Year | Publication | Notes |
+|------|-------------|-------|
+| 2025 | **Blake, A.** “Ecological Entrenchment & Responsible AI.” <br><em>Organization Science</em>, 36(2): 123‑147. | |
+| 2025 | **Blake, A.** & Smith, L. “SMART Tool.” <br><em>Journal of Management</em>, 51(1): 50‑78. | Open‑source dataset tool |

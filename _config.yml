@@ -11,3 +11,5 @@ plugins:
 collections:
   pages:
     output: true
+remote_theme: mmistakes/minimal-mistakes
+plugins: ["jekyll-include-cache"]   # plus existing plugins

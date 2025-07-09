@@ -5,11 +5,10 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <!-- This hook injects Minima’s CSS, SEO tags, feeds, etc. -->
-  {{ content_for_header }}
+  {{ content_for_header }}            <!-- <— restores Minima CSS & meta -->
 
-  <!-- Then load your overrides -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet"
+        href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
 <body>

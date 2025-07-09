@@ -4,17 +4,16 @@ title: Home
 permalink: /
 ---
 
-<img src="/assets/img/profile.jpg" alt="Andrew Blake headshot" width="140" align="right" />
-
-I am an **Assistant Professor of Management** at Texas Tech University specializing in **strategy, entrepreneurship, and organizational change**.  
-My research asks:
-
-> *How do entrepreneurs and executives shape social and ecological change through strategy, governance, and the diffusion of new ideas?*
-
-Key interests include:
-
-- Diffusion of responsible-AI practices  
-- CEO ideology & crisis response  
-- Open-source data tools (e.g., **SMART Tool**)  
-
-[Download my CV ↗](/cv/)
+<div class="hero">
+  <img src="/assets/img/profile.jpg"
+       alt="Andrew Blake headshot" width="140">
+  <div class="hero-text">
+    <h1>Andrew Blake</h1>
+    <p><strong>Assistant Professor of Management, Texas Tech</strong></p>
+    <p>I study how entrepreneurs & executives drive <em>social and ecological change</em> through strategic decision‑making and AI‑enabled innovation.</p>
+    <p>
+      <a class="btn" href="/cv/">Download CV</a>
+      <a class="btn" href="https://scholar.google.com/citations?user=P10TqEsAAAAJ">Google Scholar</a>
+    </p>
+  </div>
+</div>
