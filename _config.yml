@@ -1,16 +1,17 @@
-title: Dr. Andrew Blake
+title: Dr. [Your Name]
 description: Assistant Professor & Data Scientist
 url: "https://abblake.github.io/"
 baseurl: ""
 
 # Personal information
 author:
-  name: Dr. Andrew Blake
+  name: Dr. [Your Name]
   email: your.email@university.edu
-  title: Assistant Professor of Strategic Management
+  title: Assistant Professor of Data Science
   institution: Your University
   location: City, State
-  
+  bio: "I am an Assistant Professor of Data Science at [Your University], where I conduct research at the intersection of artificial intelligence, machine learning, and computational methods. My work focuses on developing novel algorithms that can extract meaningful insights from complex data."
+
 # Social links
 social:
   twitter: your_twitter
@@ -27,12 +28,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
 
 # Exclude files
 exclude:
