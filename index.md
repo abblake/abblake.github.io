@@ -81,42 +81,27 @@ title: Home
         </div>
     </section>
 
-    <section id="publications" class="section">
-        <h2>Publications</h2>
-        <div class="publications-container">
-            <div class="publication-item">
-                <div class="title">Novel Approaches to Deep Learning Optimization</div>
-                <div class="authors">Your Name, Co-author A, Co-author B</div>
-                <div class="venue">Conference on Neural Information Processing Systems (NeurIPS)</div>
-                <div class="date">Dec 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Code</a>
-                    <a href="#" target="_blank">Website</a>
-                </div>
+<section id="publications" class="section">
+    <h2>Publications</h2>
+    <div class="publications-container">
+        {% for pub in site.data.publications %}
+        <div class="publication-item">
+            <div class="title">{{ pub.title }}</div>
+            <div class="authors">{{ pub.authors }}</div>
+            <div class="venue">{{ pub.venue }} ({{ pub.year }})</div>
+            <div class="date">{{ pub.date }}</div>
+            {% if pub.citations > 0 %}
+            <div class="citations">{{ pub.citations }} citations</div>
+            {% endif %}
+            {% if pub.url %}
+            <div class="links">
+                <a href="{{ pub.url }}" target="_blank">View Paper</a>
             </div>
-            <div class="publication-item">
-                <div class="title">Scalable Methods for Large-Scale Data Analysis</div>
-                <div class="authors">Your Name, Co-author C</div>
-                <div class="venue">International Conference on Machine Learning (ICML)</div>
-                <div class="date">Jun 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Code</a>
-                </div>
-            </div>
-            <div class="publication-item">
-                <div class="title">Interpretable AI for Scientific Discovery</div>
-                <div class="authors">Co-author D, Your Name, Co-author E</div>
-                <div class="venue">Journal of Machine Learning Research</div>
-                <div class="date">Mar 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Website</a>
-                </div>
-            </div>
+            {% endif %}
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</section>
 
     <section id="contact" class="section">
         <h2>Contact</h2>
