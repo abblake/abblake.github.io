@@ -1,12 +1,14 @@
 title: "Andrew Blake"
 tagline: "Strategy • Entrepreneurship • Responsible AI"
 description: "Assistant Professor of Management studying how strategic decision‑making and AI shape social and ecological change."
-url: ""          # Keep empty – GitHub Pages fills it
+url: ""          # GitHub Pages fills this in
 baseurl: ""      # Deploy at repo root
+
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist
-google_analytics: ""   # ← Add GA‑ID if desired
+
+google_analytics: ""   # add GA‑ID if you like
