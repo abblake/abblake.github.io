@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  {{ content_for_header }}            <!-- <— restores Minima CSS & meta -->
-
-  <link rel="stylesheet"
-        href="{{ '/assets/main.css' | relative_url }}">
+  {{ content_for_header }}                 <!-- Minima & plugins -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
+
 <body>
-<body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    {% include nav.html %}
+  <header class="site-header">
+    <div class="container header-flex">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% include nav.html %}
+    </div>
   </header>
 
   <main class="container">
-      {{ content }}
+    {{ content }}
   </main>
 
-  <footer>
-    <small>&copy; {{ site.time | date: '%Y' }} Andrew Blake · Last updated {{ site.time | date: '%B %d, %Y' }}</small>
+  <footer class="site-footer">
+    &copy; {{ site.time | date: '%Y' }} {{ site.title }}
   </footer>
 </body>
 </html>

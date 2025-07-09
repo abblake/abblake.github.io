@@ -1,15 +1,12 @@
-title: Andrew Blake | Strategy & AI Scholar
-tagline: "Organizational strategy, ecological change, and responsible AI"
-url: ""
-baseurl: ""
-markdown: kramdown
+title: "Andrew Blake"
+tagline: "Strategy • Entrepreneurship • Responsible AI"
+description: "Assistant Professor of Management studying how strategic decision‑making and AI shape social and ecological change."
+url: ""          # Keep empty – GitHub Pages fills it
+baseurl: ""      # Deploy at repo root
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-collections:
-  pages:
-    output: true
-remote_theme: mmistakes/minimal-mistakes
-plugins: ["jekyll-include-cache"]   # plus existing plugins
+  - jekyll-gist
+google_analytics: ""   # ← Add GA‑ID if desired
