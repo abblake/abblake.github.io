@@ -24,9 +24,33 @@ jobs:
       run: |
         pip install scholarly pyyaml
         
+    - name: Debug Scholar ID
+      run: |
+        echo "Scholar ID is set: ${{ secrets.SCHOLAR_ID != '' }}"
+        echo "Scholar ID length: ${#SCHOLAR_ID}"
+      env:
+        SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
+        
     - name: Update publications
       run: |
+        echo "Starting publication update..."
         python scripts/update_publications.py
+        echo "Script completed."
+        
+        echo "Checking if publications.yml was created..."
+        if [ -f "_data/publications.yml" ]; then
+          echo "✅ publications.yml created successfully!"
+          echo "File size: $(wc -c < _data/publications.yml) bytes"
+          echo "Number of lines: $(wc -l < _data/publications.yml)"
+          echo "First few lines:"
+          head -10 _data/publications.yml
+        else
+          echo "❌ publications.yml was NOT created"
+          echo "Current directory contents:"
+          ls -la
+          echo "_data directory contents:"
+          ls -la _data/ || echo "_data directory does not exist"
+        fi
       env:
         SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         
@@ -35,8 +59,11 @@ jobs:
       run: |
         if [ -n "$(git status --porcelain)" ]; then
           echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Git status shows changes:"
+          git status --porcelain
         else
           echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
         fi
         
     - name: Commit and push changes
