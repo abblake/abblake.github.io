@@ -59,7 +59,7 @@ title: Home
                 </div>
                 <h3>Amrit Panda</h3>
                 <p class="student-title">PhD Student</p>
-                <p>Investigating how natural language processing and machine learning can reveal hidden patterns in entrepreneurial communication and investor decision-making processes.</p>
+                <p>Exploring how personality, morality and environmental ambiguity shape entrepreneurial strategy and market creation using econometric modeling, linguistic analysis, and comparative qualitative research.</p>
             </div>
             <div class="research-card student-card">
                 <div class="student-photo">
