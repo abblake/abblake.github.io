@@ -47,12 +47,8 @@ title: Home
 <div class="main-content">
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am an Assistant Professor of Data Science at {{ site.author.institution }}, where I conduct research at the intersection of artificial intelligence, machine learning, and computational methods. My work focuses on developing novel algorithms and methodologies that can extract meaningful insights from complex, high-dimensional data.</p>
-        
-        <p>I am particularly passionate about bridging the gap between theoretical foundations and practical applications, with a focus on solving real-world problems through innovative data science approaches. My research spans multiple domains including natural language processing, computer vision, and statistical learning theory.</p>
-        
-        <p>Beyond research, I am deeply committed to teaching and mentoring the next generation of data scientists and AI researchers. I believe in fostering inclusive environments where diverse perspectives can contribute to advancing our understanding of intelligent systems.</p>
-    </section>
+        <p>I am an Assistant Professor fascinated by how entrepreneurs and executives navigate uncertainty and make bold, strategic decisions. My research combines insights from psychology with advanced methods in data science, AI, and machine learning to uncover hidden patterns in leadership behavior and investor relationships. I use AI as a microscope to better understand how traits like confidence or competitiveness shape decision-making and resource acquisition in new ventures. As an educator, I teach strategic thinking through interactive workshops, equipping students with practical skills and analytical tools they need to thrive in today's rapidly changing business world. Beyond academia, I collaborate actively with industry to translate research insights into real-world strategies that empower leaders to innovate and succeed.</p>
+            </section>
 
     <section id="research" class="section">
         <h2>Alpha Lab</h2>
