@@ -47,8 +47,12 @@ title: Home
 <div class="main-content">
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I'm an assistant professor fascinated by how entrepreneurs and executives navigate uncertainty and make bold, strategic decisions. My research combines insights from psychology with advanced methods in data science, AI, and machine learning to uncover hidden patterns in leadership behavior and investor relationships. I use AI as a microscope to better understand how traits like confidence or competitiveness shape decision-making and resource acquisition in new ventures. As an educator, I teach strategic thinking through interactive workshops, equipping students with practical skills and analytical tools they need to thrive in today's rapidly changing business world. Beyond academia, I collaborate actively with industry to translate research insights into real-world strategies that empower leaders to innovate and succeed.</p>
-          </section>
+        <p>I am an Assistant Professor of Data Science at {{ site.author.institution }}, where I conduct research at the intersection of artificial intelligence, machine learning, and computational methods. My work focuses on developing novel algorithms and methodologies that can extract meaningful insights from complex, high-dimensional data.</p>
+        
+        <p>I am particularly passionate about bridging the gap between theoretical foundations and practical applications, with a focus on solving real-world problems through innovative data science approaches. My research spans multiple domains including natural language processing, computer vision, and statistical learning theory.</p>
+        
+        <p>Beyond research, I am deeply committed to teaching and mentoring the next generation of data scientists and AI researchers. I believe in fostering inclusive environments where diverse perspectives can contribute to advancing our understanding of intelligent systems.</p>
+    </section>
 
     <section id="research" class="section">
         <h2>Alpha Lab</h2>
@@ -72,42 +76,27 @@ title: Home
         </div>
     </section>
 
-    <section id="publications" class="section">
-        <h2>Publications</h2>
-        <div class="publications-container">
-            <div class="publication-item">
-                <div class="title">Novel Approaches to Deep Learning Optimization</div>
-                <div class="authors">Your Name, Co-author A, Co-author B</div>
-                <div class="venue">Conference on Neural Information Processing Systems (NeurIPS)</div>
-                <div class="date">Dec 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Code</a>
-                    <a href="#" target="_blank">Website</a>
-                </div>
+<section id="publications" class="section">
+    <h2>Publications</h2>
+    <div class="publications-container">
+        {% for pub in site.data.publications %}
+        <div class="publication-item">
+            <div class="title">{{ pub.title }}</div>
+            <div class="authors">{{ pub.authors }}</div>
+            <div class="venue">{{ pub.venue }} ({{ pub.year }})</div>
+            <div class="date">{{ pub.date }}</div>
+            {% if pub.citations > 0 %}
+            <div class="citations">{{ pub.citations }} citations</div>
+            {% endif %}
+            {% if pub.url %}
+            <div class="links">
+                <a href="{{ pub.url }}" target="_blank">View Paper</a>
             </div>
-            <div class="publication-item">
-                <div class="title">Scalable Methods for Large-Scale Data Analysis</div>
-                <div class="authors">Your Name, Co-author C</div>
-                <div class="venue">International Conference on Machine Learning (ICML)</div>
-                <div class="date">Jun 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Code</a>
-                </div>
-            </div>
-            <div class="publication-item">
-                <div class="title">Interpretable AI for Scientific Discovery</div>
-                <div class="authors">Co-author D, Your Name, Co-author E</div>
-                <div class="venue">Journal of Machine Learning Research</div>
-                <div class="date">Mar 2024</div>
-                <div class="links">
-                    <a href="#" target="_blank">PDF</a>
-                    <a href="#" target="_blank">Website</a>
-                </div>
-            </div>
+            {% endif %}
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</section>
 
     <section id="contact" class="section">
         <h2>Contact</h2>
