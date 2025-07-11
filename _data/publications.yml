@@ -4,8 +4,8 @@
   year: "2025"
   date: "2025"
   citations: 0
-  url: ""
-  abstract: "See Google Scholar for details"
+  url: "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.24656abstract"
+  abstract: "Entrepreneurial pitches are pivotal moments in venture trajectories, blending compelling ideas with complex interpersonal dynamics. While strategies like storytelling are well-studied, less is known about the role of Language Style Matching (LSM)—the unconscious mirroring of linguistic patterns—in shaping investor perceptions. Our study highlights LSM as a double-edged sword: fostering alignment but potentially reinforcing power imbalances, leading to less favorable funding terms. By integrating resource dependency theory and LSM research, we uncover the nuanced impacts of LSM on funding outcomes, offering actionable insights for entrepreneurs navigating high-stakes negotiations."
 
 - title: "Courting the Sharks: The Influence of CEO Narcissistic Admiration and Rivalry on New Venture Funding"
   authors: "P Sanchez-Ruiz, A Blake, O Petrenko, I Maldonado-Bautista, et al."
@@ -13,8 +13,8 @@
   year: "2025"
   date: "2025"
   citations: 1
-  url: ""
-  abstract: "See Google Scholar for details"
+  url: "https://pubsonline.informs.org/doi/abs/10.1287/orsc.2022.17024"
+  abstract: "We draw from the social psychology literature to introduce an alternative conceptualization of executive narcissism—narcissistic admiration and rivalry. In the context of chief executive officers (CEOs) pitching to investors, we theorize how narcissistic CEOs may use distinct behavioral strategies to pursue status, thereby shaping investor sentiment and ultimately affecting investors’ funding decisions. Using Shark Tank data, we find evidence that narcissistic admiration and rivalry are associated with opposing patterns in new venture funding, as shaped by investor sentiment. Specifically, CEO narcissistic admiration is positively associated with new venture funding by increasing investor sentiment, whereas CEO narcissistic rivalry is negatively associated with new venture funding by decreasing investor sentiment. These results highlight the need to separate narcissistic admiration and rivalry in executive narcissism research and illustrate the underlying mechanisms through which executive narcissism shapes organizational outcomes. Overall, this study provides new insights into two pathways of executive narcissism and offers evidence consistent with the idea that executive narcissism matters in entrepreneurial contexts."
 
 - title: "The SMART Tool: Encouraging Standardized and Replicable Research in Management to Enhance Credibility"
   authors: "AB Blake, OV Petrenko, TJ Quigley, AD Hill, A Panda"
@@ -22,8 +22,8 @@
   year: "2024"
   date: "2024"
   citations: 0
-  url: ""
-  abstract: "See Google Scholar for details"
+  url: "https://www.emerald.com/insight/content/doi/10.1108/s1479-838720240000015003/full/html"
+  abstract: "Strategic management research faces increasing calls concerning our work's relevance, reliability and credibility. Management journals have addressed these concerns by elevating the expectations for scholars during the publication process, such as publishing code, scripts and data. While the authors’ believe these changes are necessary for the field's long-term success, in the short term, there is a high resource cost for researchers (many with temporal constraints) to adjust to these new expectations. In this paper, the authors aim to decrease this cost on Strategic Management researchers in two ways. First, the authors discuss the vision, strengths and step-by-step instructions for the emerging code-sharing instrument – The SMART tool (Standardized Measures that are Accurate, Replicable and Time-saving, available at http://www.smartdatatool.net/) – for Strategic Management research. Second, the authors discuss some essential conditions for the tool's benefits to be fully realized by the field. Together, this paper offers the initial steps for creating a collaborative and open-source ecosystem for code and data in Strategic Management research that can strengthen stakeholder confidence in the field."
 
 - title: "Do the personal attributes of CEOs matter in the IPO pricing process? An examination of charisma and humility"
   authors: "JA Chandler, OV Petrenko, N Hayes, AB Blake, F Aime"
@@ -31,8 +31,8 @@
   year: "2023"
   date: "2023"
   citations: 19
-  url: ""
-  abstract: "See Google Scholar for details"
+  url: "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/sej.1451"
+  abstract: "We investigate how charisma and humility in CEOs of firms undertaking an initial public offering influence two of the most important decisions of investment bankers: determining the firm's offer price range and setting the firm's actual offer price. We show that firms led by more charismatic CEOs enjoy higher offer prices and smaller offer price ranges due to their perceptions of being an effective leader and their strong negotiation abilities. We also show that firms led by more humble CEOs have lower offer prices and broader offer price ranges since humble leaders fall outside of expected perceptions of effective leaders and lack strong negotiation abilities. Ultimately, our study demonstrates the importance of CEO characteristics on pricing decisions throughout the initial public offering process."
 
 - title: "Improving our field through code and data sharing"
   authors: "TJ Quigley, AD Hill, A Blake, O Petrenko"
@@ -40,7 +40,7 @@
   year: "2023"
   date: "2023"
   citations: 5
-  url: ""
+  url: "https://journals.sagepub.com/doi/full/10.1177/01492063221141861"
   abstract: "See Google Scholar for details"
 
 - title: "The Cost of CEO Conflict Orientation: Exploring the Ramifications of CEO Agreeableness"
@@ -49,7 +49,7 @@
   year: "2023"
   date: "2023"
   citations: 0
-  url: ""
+  url: "https://journals.aom.org/doi/abs/10.5465/AMPROC.2023.14270abstract"
   abstract: "See Google Scholar for details"
 
 - title: "Let's agree about nice leaders: A literature review and meta-analysis of agreeableness and its relationship with leadership outcomes"
