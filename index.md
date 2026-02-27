@@ -74,23 +74,43 @@ title: Home
 
 <section id="publications" class="section">
     <h2>Publications</h2>
-    <div class="publications-container">
-        {% for pub in site.data.publications %}
-        <div class="publication-item">
-            <div class="title">{{ pub.title }}</div>
-            <div class="authors">{{ pub.authors }}</div>
-            <div class="venue">{{ pub.venue }} ({{ pub.year }})</div>
-            <div class="date">{{ pub.date }}</div>
-            {% if pub.citations > 0 %}
-            <div class="citations">{{ pub.citations }} citations</div>
-            {% endif %}
-            {% if pub.url %}
-            <div class="links">
-                <a href="{{ pub.url }}" target="_blank">View Paper</a>
+    <div class="pub-themes">
+        <div class="pub-theme-col">
+            <h4>Founders</h4>
+            {% assign founders = site.data.publications | where: "theme", "founders" %}
+            {% for pub in founders %}
+            <div class="pub-theme-item">
+                <div class="pub-venue-year">{{ pub.venue }} ({{ pub.year }})</div>
+                <div class="pub-title-short">{{ pub.title }}</div>
+                {% if pub.citations > 0 %}<div class="pub-citations">{{ pub.citations }} citations</div>{% endif %}
+                {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
             </div>
-            {% endif %}
+            {% endfor %}
         </div>
-        {% endfor %}
+        <div class="pub-theme-col">
+            <h4>Leadership & Open Science</h4>
+            {% assign leadership = site.data.publications | where: "theme", "leadership" %}
+            {% for pub in leadership %}
+            <div class="pub-theme-item">
+                <div class="pub-venue-year">{{ pub.venue }} ({{ pub.year }})</div>
+                <div class="pub-title-short">{{ pub.title }}</div>
+                {% if pub.citations > 0 %}<div class="pub-citations">{{ pub.citations }} citations</div>{% endif %}
+                {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="pub-theme-col">
+            <h4>Personality & Behavior</h4>
+            {% assign personality = site.data.publications | where: "theme", "personality" %}
+            {% for pub in personality %}
+            <div class="pub-theme-item">
+                <div class="pub-venue-year">{{ pub.venue }} ({{ pub.year }})</div>
+                <div class="pub-title-short">{{ pub.title }}</div>
+                {% if pub.citations > 0 %}<div class="pub-citations">{{ pub.citations }} citations</div>{% endif %}
+                {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
 
