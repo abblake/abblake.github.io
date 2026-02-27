@@ -558,6 +558,9 @@ body {
         margin-bottom: 20px;
         padding-bottom: 10px;
         border-bottom: 3px solid $ember-orange;
+        min-height: 3.5em;
+        display: flex;
+        align-items: flex-end;
     }
 }
 
