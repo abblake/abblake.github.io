@@ -72,9 +72,10 @@ title: Home
 <section id="publications" class="section">
     <h2>Publications</h2>
     <div class="pub-themes">
-        <div class="pub-theme-col">
-            <h4>Founders</h4>
-            <div class="pub-cards">
+        <h4 class="pub-theme-header">Founders</h4>
+        <h4 class="pub-theme-header">Leadership &amp; Open Science</h4>
+        <h4 class="pub-theme-header">Personality &amp; Behavior</h4>
+        <div class="pub-cards">
             {% assign founders = site.data.publications | where: "theme", "founders" %}
             {% for pub in founders %}
             <div class="pub-theme-item">
@@ -84,11 +85,8 @@ title: Home
                 {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
             </div>
             {% endfor %}
-            </div>
         </div>
-        <div class="pub-theme-col">
-            <h4>Leadership &amp; Open Science</h4>
-            <div class="pub-cards">
+        <div class="pub-cards">
             {% assign leadership = site.data.publications | where: "theme", "leadership" %}
             {% for pub in leadership %}
             <div class="pub-theme-item">
@@ -98,11 +96,8 @@ title: Home
                 {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
             </div>
             {% endfor %}
-            </div>
         </div>
-        <div class="pub-theme-col">
-            <h4>Personality &amp; Behavior</h4>
-            <div class="pub-cards">
+        <div class="pub-cards">
             {% assign personality = site.data.publications | where: "theme", "personality" %}
             {% for pub in personality %}
             <div class="pub-theme-item">
@@ -112,7 +107,6 @@ title: Home
                 {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
             </div>
             {% endfor %}
-            </div>
         </div>
     </div>
 </section>

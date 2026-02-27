@@ -537,16 +537,16 @@ body {
     }
 }
 
-// Themed publications grid
+// Themed publications grid — flat 6-cell layout for header alignment
 .pub-themes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-rows: auto 1fr;
+    gap: 0 30px;
     margin-top: 30px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    // Break out of the 800px main-content container
     width: 100vw;
     position: relative;
     left: 50%;
@@ -555,6 +555,7 @@ body {
 
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
         width: 100%;
         left: 0;
         transform: none;
@@ -562,26 +563,20 @@ body {
     }
 }
 
-.pub-theme-col {
-    display: grid;
-    grid-template-rows: 4em auto;
-    align-content: start;
+.pub-theme-header {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $charcoal;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid $ember-orange;
+    display: flex;
+    align-items: end;
+}
 
-    h4 {
-        font-size: 1.1em;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: $charcoal;
-        margin: 0;
-        padding-bottom: 10px;
-        border-bottom: 3px solid $ember-orange;
-        display: flex;
-        align-items: end;
-    }
-
-    .pub-cards {
-        padding-top: 20px;
-    }
+.pub-cards {
+    padding-top: 20px;
 }
 
 .pub-theme-item {
