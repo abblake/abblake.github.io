@@ -22,6 +22,7 @@ permalink: /publications/
 <div class="pub-themes">
     <div class="pub-theme-col">
         <h4>Founders</h4>
+        <div class="pub-cards">
         {% assign founders = site.data.publications | where: "theme", "founders" %}
         {% for pub in founders %}
         <div class="pub-theme-item">
@@ -33,9 +34,11 @@ permalink: /publications/
             {% if pub.url and pub.url != "" %}<div class="pub-link"><a href="{{ pub.url }}" target="_blank">View</a></div>{% endif %}
         </div>
         {% endfor %}
+        </div>
     </div>
     <div class="pub-theme-col">
-        <h4>Leadership & Open Science</h4>
+        <h4>Leadership &amp; Open Science</h4>
+        <div class="pub-cards">
         {% assign leadership = site.data.publications | where: "theme", "leadership" %}
         {% for pub in leadership %}
         <div class="pub-theme-item">
@@ -47,9 +50,11 @@ permalink: /publications/
             {% if pub.url and pub.url != "" %}<div class="pub-link"><a href="{{ pub.url }}" target="_blank">View</a></div>{% endif %}
         </div>
         {% endfor %}
+        </div>
     </div>
     <div class="pub-theme-col">
-        <h4>Personality & Behavior</h4>
+        <h4>Personality &amp; Behavior</h4>
+        <div class="pub-cards">
         {% assign personality = site.data.publications | where: "theme", "personality" %}
         {% for pub in personality %}
         <div class="pub-theme-item">
@@ -61,5 +66,6 @@ permalink: /publications/
             {% if pub.url and pub.url != "" %}<div class="pub-link"><a href="{{ pub.url }}" target="_blank">View</a></div>{% endif %}
         </div>
         {% endfor %}
+        </div>
     </div>
 </div>
