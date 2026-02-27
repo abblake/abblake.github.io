@@ -40,7 +40,6 @@ title: Home
 
 <nav class="floating-nav">
     <ul>
-        <li><a href="#about" data-tooltip="About"></a></li>
         <li><a href="#research" data-tooltip="Research"></a></li>
         <li><a href="#publications" data-tooltip="Publications"></a></li>
         <li><a href="#contact" data-tooltip="Contact"></a></li>
@@ -48,11 +47,6 @@ title: Home
 </nav>
 
 <div class="main-content">
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>I received my Ph.D. in Strategy and Venture Innovation from the University of Arkansas in 2022 and am currently an Assistant Professor of Management at Texas Tech University. My research examines how founders navigate the new venture process, focusing on resource acquisition, venture scaling, and executive strategy.</p>
-            </section>
-
     <section id="research" class="section">
         <h2>Alpha Lab</h2>
         <div class="research-grid">
