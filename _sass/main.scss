@@ -563,16 +563,17 @@ body {
     }
 }
 
-.pub-theme-header {
+.pub-themes > .pub-theme-header {
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: $charcoal;
-    margin: 0;
+    margin: 0 0 0 0;
     padding-bottom: 10px;
-    border-bottom: 3px solid $ember-orange;
+    border-bottom: 3px solid $ember-orange !important;
     display: flex;
     align-items: end;
+    align-self: end;
 }
 
 .pub-cards {
