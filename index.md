@@ -28,6 +28,9 @@ title: Home
             <a href="https://linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn">
                 <i class="fab fa-linkedin"></i>
             </a>
+            <a href="{{ '/assets/cv/Blake_CV.pdf' | relative_url }}" title="CV" target="_blank">
+                <i class="fas fa-file-alt"></i>
+            </a>
         </div>
     </div>
     <div class="scroll-indicator">
