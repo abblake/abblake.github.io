@@ -47,7 +47,7 @@ title: Home
 <div class="main-content">
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am a social scientist fascinated by how entrepreneurs and executives navigate uncertainty and make bold, strategic decisions. My research combines insights from psychology with advanced methods in data science, AI, and machine learning to uncover hidden patterns in leadership behavior and investor relationships. I use AI as a microscope to better understand how traits like confidence or competitiveness shape decision-making and resource acquisition in new ventures. As an educator, I teach strategic thinking through interactive workshops, equipping students with practical skills and analytical tools they need to thrive in today's rapidly changing business world. Beyond academia, I collaborate actively with industry to translate research insights into real-world strategies that empower leaders to innovate and succeed.</p>
+        <p>I received my Ph.D. in Strategy and Venture Innovation from the University of Arkansas in 2022 and am currently an Assistant Professor of Management at Texas Tech University. My research examines how founders navigate the new venture process, focusing on resource acquisition, venture scaling, and executive strategy.</p>
             </section>
 
     <section id="research" class="section">
@@ -115,6 +115,6 @@ title: Home
 
 <footer class="footer">
     <div class="container">
-        <p>&copy; 2025 {{ site.author.name }}. All rights reserved.</p>
+        <p>&copy; 2026 {{ site.author.name }}. All rights reserved.</p>
     </div>
 </footer>
